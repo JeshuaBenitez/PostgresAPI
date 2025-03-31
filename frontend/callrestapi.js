@@ -1,4 +1,3 @@
-// Archivo callrestapi.js
 var url = "http://localhost:8080/api/users"; // Asegúrate de que la URL sea correcta
 
 function postUser() {
