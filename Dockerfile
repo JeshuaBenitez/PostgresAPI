@@ -7,7 +7,7 @@ RUN curl -sL https://deb.nodesource.com/setup_20.x | bash - && apt-get install -
 RUN apt-get install -y nodejs
 
 ADD . /app
-RUN npm install
+RUN npm install --legacy-peer-deps
 
 EXPOSE 8080
 
